@@ -84,7 +84,7 @@ pip3 install --pre torch torchvision --index-url https://download.pytorch.org/wh
 ```
 
 If this build doesn’t work on your machine (e.g., different CUDA version, no NVIDIA GPU, or CPU-only), use the official installer to select the right build:
- [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
+ [Pytorch](https://pytorch.org/get-started/locally/)
 
 
 
