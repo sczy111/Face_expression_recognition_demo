@@ -219,6 +219,9 @@ Each file is commented for easier understanding if you wish to explore the code 
 
   * Choose the correct device in **Camera selection** and click **Apply Model/IO**.
   * Close other applications using the camera (Zoom, Discord, OBS, etc.).
+* **The capture is slow and unstable**
+  * This is expected if your system does not have a CUDA-supported GPU, as the program will automatically fall back to CPU processing and in worst case it may carsh or not start capture at all. You can check the console log to see whether the program is using the CPU or GPU.
+
 
 
 Useful logs are printed to the console during runtime — check them for debugging information.
