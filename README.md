@@ -1,6 +1,6 @@
 # Real-time Facial Emotion Demo (Webcam + Visualizations)
 
-A demo that runs [EmoNet](https://github.com/face-analysis/emonet) models on live webcam video, displaying overlays (bounding boxes, labels, emojis, landmarks, and VA circumplex) through a **Gradio** control panel. It also supports **side-by-side model comparison** (e.g., 5-class vs 8-class weights) with synchronized visualizations.
+A demo that runs [EmoNet](https://github.com/face-analysis/emonet) models on live webcam video, displaying overlays (bounding boxes, labels, emojis, landmarks, and VA circumplex) through a **Gradio** control panel. It also supports **side-by-side model comparison** (e.g., 5-class vs 8-class weights) with synchronized visualizations. You can check a showcase video here: [demo](https://www.youtube.com/watch?v=waxnplqpPgs)
 
 ---
 
