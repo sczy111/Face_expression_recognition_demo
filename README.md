@@ -118,7 +118,8 @@ python main.py
 ```
 You can also use **`start.bat`** to quickly start the virtual environment if it is located in the same folder.
 If no virtual environment is detected, the script will simply open a console in the current directory.
-The console should display something like:
+
+If the program starts properly, The console should display something like:
 
 ```
 ✅ Program started successfully. Open the UI in your browser: http://127.0.0.1:7860
