@@ -34,6 +34,14 @@ A demo that runs [EmoNet](https://github.com/face-analysis/emonet) models on liv
 
 ## Setup
 
+### Packaged Version
+
+If you cannot set up the environment or just want to run the program directly,
+you can download the packaged executable here:
+[FaceApp](https://drive.google.com/file/d/19jtzxHubomG5XBDm8gsR95ZDYIgsvJeG/view?usp=sharing)
+
+Simply run **`FaceApp.exe`** to start the demo.
+
 ### Requirements
 
 * **Python 3.12**
@@ -87,14 +95,6 @@ If this build doesn’t work on your machine (e.g., different CUDA version, no N
  [Pytorch](https://pytorch.org/get-started/locally/)
 
 
-
-### Packaged Version
-
-If you cannot set up the environment or just want to run the program directly,
-you can download the packaged executable here:
-[FaceApp](https://drive.google.com/file/d/19jtzxHubomG5XBDm8gsR95ZDYIgsvJeG/view?usp=sharing)
-
-Simply run **`FaceApp.exe`** to start the demo.
 
 
 
