@@ -108,16 +108,6 @@ If this build doesn’t work on your machine (e.g., different CUDA version, no N
 
 
 
----
-
-## Models
-
-* Default weights: `./pretrained/emonet_5.pth` and `./pretrained/emonet_8.pth` (used as fallback).
-* `./functions/models/emonet_8_FT.pth` is the model we fine-tuned on the [EmoDataset](https://www.kaggle.com/datasets/susmitdas1053/emodataset?select=Emodataset).
-* Add custom `.pth` files to `./functions/models/` — they will automatically appear in the **Model selection** dropdown.
-* The number of classes (5 or 8) is inferred from the filename (e.g., `*_5.pth` → 5 classes).
-  Please name your models correctly.
-* The demo only supports models with 5 or 8 classes; other configurations may not work properly.
 
 ---
 
@@ -138,6 +128,17 @@ Open the shown URL in your browser.
 
 ---
 
+
+## Models
+
+* Default weights: `./pretrained/emonet_5.pth` and `./pretrained/emonet_8.pth` (used as fallback).
+* `./functions/models/emonet_8_FT.pth` is the model we fine-tuned on the [EmoDataset](https://www.kaggle.com/datasets/susmitdas1053/emodataset?select=Emodataset).
+* Add custom `.pth` files to `./functions/models/` — they will automatically appear in the **Model selection** dropdown.
+* The number of classes (5 or 8) is inferred from the filename (e.g., `*_5.pth` → 5 classes).
+  Please name your models correctly.
+* The demo only supports models with 5 or 8 classes; other configurations may not work properly.
+
+---
 ## UI Overview
 
 ![UI](functions/images/Demo_UI.png)
