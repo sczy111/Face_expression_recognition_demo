@@ -80,9 +80,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-
-
-### Torch Version
+Note: You need to install PyTorch separately, depending on your system setup.
 
 Developed on an **RTX 5070 Ti (desktop)** and tested on an **RTX 3070 (laptop)**.
 Both used the PyTorch **nightly CUDA 12.8** build:
